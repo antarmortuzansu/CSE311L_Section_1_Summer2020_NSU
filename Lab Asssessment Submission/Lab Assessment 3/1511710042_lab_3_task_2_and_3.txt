@@ -1,12 +1,13 @@
 Activity 02: 
-SELECT last_name, job_id, start_date
+SELECT last_name, job_id, hire_date
 FROM employees
-WHERE start_date BETWEEN 20-02-1998 AND 1-05-1998
-ORDER BY start_date ASC;
+WHERE hire_date BETWEEN 20-02-1998 AND 1-05-1998
+ORDER BY hire_date ASC;
 
 Activity 03: 
 SELECT last_name, department_id
 FROM employees
 WHERE department_id BETWEEN 20 AND 40
-ORDER BY Name 
+ORDER BY alphabetic Name 
+
 
