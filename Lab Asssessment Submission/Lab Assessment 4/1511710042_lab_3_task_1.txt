@@ -1,0 +1,2 @@
+SELECT last_name "Name", salary/4 "Weekly Salary", dept_id
+FROM employees;
